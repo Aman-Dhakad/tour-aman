@@ -1,0 +1,723 @@
+.container{padding: 0; }
+
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+}
+
+.navigationbar{
+padding: 30px 0px;
+}
+
+.navbar-brand{
+transition: all 1s;
+}
+.navbar-brand:hover{
+transform: scale(1.3);
+}
+.navbar-brand .logo {
+font-size: 30px;
+color: black;
+font-weight: 800;
+}
+.navbar-brand span{
+color: #f48840;
+font-size: 10px;
+}
+.navigationbar ul li span{
+color: black;
+font-weight: 900;
+}
+.navigationbar ul li a :hover{
+color: #f48840;
+background-color: none;
+}
+ul .oranged a span {color: #f48840;}
+/* nav completed*/
+.download{
+background-image:url(../images/cta-bg.jpg);
+color: #fff;
+padding: 30px 0px;
+}
+.download h3{
+color: #f48840;
+}
+.download button{
+margin-top: 30px;
+background-color: #f48840;
+padding: 10px 2%;
+border-color: #f48840;
+margin-left: 60%;
+border-radius: 0;
+transition: all 1s;
+}
+.download button:hover{
+transform:skewX(-20deg);
+transform: rotate(10deg);
+background-color:rgb(19, 177, 150);
+border-color: rgb(19, 177, 150);
+}
+.download button a{color: #fff; text-decoration: none;}
+/* main content*/
+
+.main-content{
+margin-top: 150px;
+}
+/*lifestyle*/
+.left{
+padding: 0;
+}
+.left .lifestyle{
+padding: 0;
+border: 1px solid rgb(224, 222, 222);
+padding-bottom: 30px;
+}
+.left .lifestyle img{
+width: 100%;
+margin-bottom: 30px;
+transition: all .5s ease-in;
+}
+.left .lifestyle img:hover{
+transform: scale(1.01);
+transform: translate(0px, 10px);
+}
+.left .healthy img{
+width: 100%;
+margin-bottom: 30px;
+transition: all .5s ease-in;
+}
+.left .healthy img:hover{
+transform: scale(1.01);
+transform: translate(0px, 10px);
+}
+
+.left .fashion img{
+width: 100%;
+margin-bottom: 30px;
+transition: all .5s ease-in;
+}
+.left .fashion img:hover{
+transform: scale(1.01);
+transform: translate(0px, 10px);
+}
+
+.lifestyle h3{
+color: #f48840;
+margin-left: 3%;
+}
+.lifestyle h4{
+margin-left: 3%;
+}
+.lifestyle a{
+color: rgb(165, 159, 159);
+margin-left: 3%;
+}
+.lifestyle p{
+color: rgb(165, 159, 159);
+font-size: 15px;
+margin-left: 3%;
+line-height: 23px;
+}
+.lifestyle .glyphicon{
+color: #f48840;
+margin-left: 3%;
+}
+.lifestyle .fa{
+margin-left: 60%;
+color: #f48840;
+}
+
+
+/*healthy*/
+.left .healthy{
+padding: 0;
+border: 1px solid rgb(224, 222, 222);
+padding-bottom: 30px;
+margin-top: 50px;
+}
+.left .healthy img{
+width: 100%;
+margin-bottom: 30px;
+}
+.healthy h3{
+color: #f48840;
+margin-left: 3%;
+}
+.healthy h4{
+margin-left: 3%;
+}
+.healthy a{
+color: rgb(165, 159, 159);
+margin-left: 3%;
+}
+.healthy p{
+color: rgb(165, 159, 159);
+font-size: 15px;
+margin-left: 3%;
+line-height: 23px;
+}
+.healthy .glyphicon{
+color: #f48840;
+margin-left: 3%;
+}
+.healthy .fa{
+margin-left: 60%;
+color: #f48840;
+}
+/*fashion*/
+
+.left .fashion{
+padding: 0;
+border: 1px solid rgb(224, 222, 222);
+padding-bottom: 30px;
+margin-top: 50px;
+}
+.left .fashion img{
+width: 100%;
+margin-bottom: 30px;
+}
+.fashion h3{
+color: #f48840;
+margin-left: 3%;
+}
+.fashion h4{
+margin-left: 3%;
+}
+.fashion a{
+color: rgb(165, 159, 159);
+margin-left: 3%;
+}
+.fashion p{
+color: rgb(165, 159, 159);
+font-size: 15px;
+margin-left: 3%;
+line-height: 23px;
+}
+.fashion .glyphicon{
+color: #f48840;
+margin-left: 3%;
+}
+.fashion .fa{
+margin-left: 60%;
+color: #f48840;
+}
+
+
+.posts{
+padding: 0;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.posts button{
+width: 100%;
+padding: 12px 2%;
+border-radius: 0;
+background-color: #f48840;
+border-color: #f48840;
+transition:all 1s ;
+}
+.posts button:hover{
+background-color: rgb(19, 177, 150);
+border-color: rgb(19, 177, 150);
+transform: scale(.85);
+
+}
+.posts button a{color: #fff; text-decoration: none;}
+
+
+/*RIGHT PART OF MAIN CONTENT*/
+.right{
+margin-left: 8%;
+}
+.right input{
+width: 100%;
+padding: 15px 0px;
+}
+.right h2{
+color: black;
+font-weight: 600;
+}
+.right p{
+color: black;
+font-size: 20px;
+font-weight: 600;
+}
+.right  span{
+color: rgb(165, 159, 159);
+}
+.right p:hover{
+color: #f48840;
+}
+.right h3{
+color: black;
+font-weight: 600;
+}
+.right ul{
+padding: 0;
+
+}
+.right li{
+color: black;
+font-weight: 600;
+margin-bottom: 10px;
+font-size: 15px;
+}
+.right ul :hover{
+color: #f48840;
+}
+.right h3{
+margin-top: 50px;
+}
+.right button{
+margin-left: 1%;
+margin-top: 10px;
+border-radius: 0;
+color: rgb(165, 159, 159);
+font-size: 15px;
+}
+.right button:hover{
+background-color: #f48840;
+color: #fff;
+}
+.right button a{ text-decoration: none;}
+
+/*footer starts here*/
+
+footer{
+width: 100%;
+background-color: rgb(32, 35, 46);
+padding-top: 70px;
+clear: both;
+}
+footer h5{
+word-spacing: 20px;
+margin-bottom: 70px;
+}
+footer hr{width: 60%; margin-bottom: 40px;}
+
+footer .contact{
+background-color: rgb(32, 35, 46);
+text-align: center;
+color: #fff;
+padding-bottom: 40px;
+}
+footer .contact span{color: #f48840;}
+
+@media only screen and (max-width:1200px){
+.download button{
+margin-left: 40%;
+}
+}
+@media only screen and (max-width:773px){
+.right-home{
+margin-left: 0;
+}
+.lifestyle{
+margin: 2%;
+}
+.healthy{
+margin: 2%;
+}
+.fashion{
+margin: 2%;
+}
+.posts{
+margin-left: 2%;
+margin-right: 2%;
+}
+}
+
+
+@media only screen and (max-width:773px){
+.right{width: 100%;}
+}
+@media only screen and (max-width:773px){
+footer{margin-top: 40px;}
+}
+@media only screen and (max-width:760px){
+.fashion .fa{margin-left: 40%;}
+}
+@media only screen and (max-width:760px){
+.healthy .fa{margin-left: 40%;}
+}
+@media only screen and (max-width:760px){
+.lifestyle .fa {margin-left: 40%;}
+}
+@media only screen and (max-width:773px){
+.navbar-brand{
+margin-left: 7%;
+}
+}
+
+/****************************************************ABOUT PAGE *********************************************/
+
+.box-background{
+background: url(../images/heading-bg.jpg), rgb(121, 105, 105);
+padding: 120px 0px;
+background-size: cover;
+width: 99%;
+}
+.box-background:hover{
+background-blend-mode:overlay;
+}
+.box-background h4{
+color: #f48840;
+margin-left: 17%;
+font-weight: 700;
+}
+.box-background h1{
+color: #fff;
+margin-left: 17%;
+font-weight: 700;
+}
+.apple-pc{
+margin-top: 100px;
+}
+.apple-pc img{
+width: 100%;
+padding: 0 10px;
+transition:all 1s ;
+}
+.apple-pc img:hover{
+transform: scale(.90);
+}
+.apple-pc p{
+margin-top: 40px;
+font-size: 16px;
+color: rgb(97, 95, 95);
+text-align-last: center;
+line-height: 30px;
+padding: 0 10px;
+}
+.apple-pc hr{margin-top: 50px;}
+.apple-pc .col-lg-6 p{
+margin-top: 40px;
+font-size: 16px;
+color: rgb(97, 95, 95);
+text-align-last: center;
+line-height: 30px;
+border-bottom: 1px solid rgb(165, 159, 159);
+padding-bottom: 30px;
+padding: 0 10px;
+}
+.apple-pc .col-lg-6 h2{
+text-align: center;
+font-weight: 600;
+}
+
+.apple-pc .col-lg-4 p{
+margin-top: 40px;
+font-size: 16px;
+color: rgb(97, 95, 95);
+text-align-last: center;
+line-height: 30px;
+border-bottom: 1px solid rgb(165, 159, 159);
+padding-bottom: 30px;
+text-align: center;
+padding: 0 10px;
+}
+.apple-pc .col-lg-4 h2{
+text-align: center;
+font-weight: 600;
+margin-top: 40px;
+}
+.apple-pc .col-lg-3 p{
+margin-top: 40px;
+font-size: 16px;
+color: rgb(97, 95, 95);
+text-align-last: center;
+line-height: 30px;
+border-bottom: 1px solid rgb(165, 159, 159);
+padding-bottom: 30px;
+text-align: center;
+padding: 0 10px;
+}
+.apple-pc .col-lg-3 h2{
+text-align: center;
+font-weight: 600;
+margin-top: 40px;
+}
+.apple-pc .col-lg-12 span{
+font-size: 20px;
+margin-left: 2%;
+border-radius: 100%;
+border: 1px solid;
+padding: .85%;
+background-color: rgb(32, 35, 46);
+color: #fff;
+}
+.apple-pc .col-lg-12{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 60px;
+}
+.apple-pc .col-lg-12 span:hover{
+background-color: #f48840;
+}
+
+
+/*****************************************BLOG PART STARTS****************************************/
+
+
+
+.download-blog{
+margin-top: 100px;
+margin-bottom: 50px;
+}
+.l-part{
+padding: 0;
+}
+
+.lifestyle-right img{
+width: 100%;
+transition: all .5s ease-in;
+}
+.lifestyle-right img:hover{
+transform: scale(1.06);
+box-shadow: 3px 3px 35px #f48840;
+}
+.lifestyle-left img{
+width: 100%;
+transition: all .5s ease-in;
+}
+.lifestyle-left img:hover{
+transform: scale(1.06);
+box-shadow: 3px 3px 35px #f48840;
+}
+
+.lifestyle-left{
+padding: 0;
+border: 1px solid rgb(224, 222, 222);
+margin-top: 40px;
+}
+.lifestyle-right{
+padding: 0;
+border: 1px solid rgb(224, 222, 222);
+margin-top: 40px;
+}
+.lifestyle-left h3{
+font-weight: 700;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.lifestyle-right h3{
+font-weight: 700;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.lifestyle-left p{
+line-height: 34px;
+}
+.lifestyle-right p{
+line-height: 34px;
+}
+.lifestyle-left span{
+margin-bottom: 50px;
+}
+.lifestyle-right span{
+margin-bottom: 50px;
+}
+
+
+.foot{
+margin-top: 40px;
+}
+.page-turn{
+clear: both;
+padding-top: 40px;
+margin-left: 30%;
+margin-bottom: 150px;
+}
+.pagenation li{
+border: 2px solid #f48840;
+float: left;
+padding: 3%;
+list-style: none;
+}
+.this-page{
+background-color: #9fa2a3;
+}
+.right-blog{
+margin-top: 37px;
+margin-left: 0;
+}
+
+/**************************media of blog***********************************/
+@media only screen and (max-width:763px){
+.lifestyle-left{
+margin-left: 20px;margin-right: 20px;
+}
+}
+@media only screen and (max-width:763px){
+.lifestyle-right{
+margin-left: 20px;margin-right: 20px;
+}
+}
+
+/***************************************post detail page starts **************************************/
+
+.post-lifestyle p{
+line-height: 29px;
+padding: 0px 20px;
+}
+.post-lifestyle h4{
+font-weight: 900;
+padding: 10px 20px;
+}
+.post-lifestyle h3{
+font-weight: 900;
+padding: 10px 20px;
+}
+.post-lifestyle .links{
+padding-left: 20px;
+}
+
+.post-left h2{
+padding-top: 40px;
+clear: both;
+}
+
+.comment-1{
+border-bottom: 1px solid rgb(207, 204, 204);
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+.comment-1 .para{
+margin-left: 0;
+}
+.comment-1 .para h3{
+margin-top: 0;
+}
+.comment-1 .para p{
+line-height: 25px;
+color: rgb(165, 159, 159);
+font-weight: 400;
+font-size: 17px;
+}
+.comment-1 span{
+color: rgb(165, 159, 159);
+font-size: 15px;
+}
+
+.comment-2{
+border-bottom: 1px solid rgb(207, 204, 204);
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+.comment-2 .para h3{
+margin-top: 0;
+}
+.comment-2 .para p{
+line-height: 25px;
+color: rgb(165, 159, 159);
+font-weight: 400;
+font-size: 17px;
+}
+.comment-2 span{
+color: rgb(165, 159, 159);
+font-size: 15px;
+}
+.last-comment{
+border: none;
+}
+.your-comment h3{
+font-weight: 800;
+}
+
+#my-name{
+width: 40%;
+border-radius: 0;
+padding: 22px 10px;
+}
+
+#my-email{
+margin-left: 4%;
+width: 55%;
+border-radius: 0;
+padding: 22px 10px;
+}
+#my-subject{
+border-radius: 0;
+padding: 22px 10px;
+}
+textarea{
+width: 100%;
+}
+
+@media only screen and (max-width:1200px){
+.comment-1 .para{
+width: 100%;
+margin-top: 20px;
+}
+.comment-1 h3{
+width: 100%;
+}
+}
+@media only screen and (max-width:767px){
+.comment-2 .para{
+margin-top: 20px;
+}
+}
+@media only screen and (max-width:767px){
+#my-email{
+width: 100%;
+margin: 0;
+}
+#my-name{
+width: 100%;
+margin-bottom: 20px;
+}
+}
+@media only screen and (max-width:767px){
+.rigth-post{
+width: 90%;
+padding: 0;
+}
+
+.post-left{
+margin: 2%
+}
+.navbar-header{
+width: 100%;
+}
+}
+@media only screen and (max-width:773px){
+#search{
+width: 90%;
+}
+.comment-1{
+margin: 2%;
+}
+.comment-2{
+margin: 2%;
+}
+}
+.submit{
+padding: 12px 20px;
+}
+/******* nav bar edit*********/
+@media only screen and (max-width:767px){
+.navbar-right a{
+text-align: center;
+}
+.navbar-toggle{
+background-color: #f48840;
+}
+}
+
+/***********************contact us page**********************************************/
+
+.left-contact{
+margin-top: 40px;
+}
+.right-contact h5{
+color: rgb(165, 159, 159);
+}
+@media only screen and (max-width:767px){
+.left-contact{
+margin-left: 2%;
+margin-right: 2%;
+}
+
+}
